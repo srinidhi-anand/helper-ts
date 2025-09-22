@@ -1,8 +1,13 @@
 {
   "name": "helper-utils-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "helper utils for typescript",
-  "keywords": ["helper", "utils", "typescript", "javascript"],
+  "keywords": [
+    "helper",
+    "utils",
+    "typescript",
+    "javascript"
+  ],
   "homepage": "https://github.com/srinidhi-anand/helper-ts#readme",
   "bugs": {
     "url": "https://github.com/srinidhi-anand/helper-ts/issues"
