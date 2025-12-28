@@ -1,4 +1,4 @@
-import { Value } from "./types";
+import { Value } from "./types/interface";
 
 /**
  * function to work on the undefined
@@ -7,7 +7,7 @@ import { Value } from "./types";
  * @returns boolean status of the undefined value if exists else returns false.
  */
 function isUndefined(value: Value): boolean {
-  return value === undefined || value === 'undefined';
+  return value === undefined;
 }
 
 export default isUndefined;
