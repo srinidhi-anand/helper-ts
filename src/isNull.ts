@@ -1,4 +1,4 @@
-import { Value } from "./types";
+import { Value } from "./types/interface";
 
 /**
  * function to work on the null
@@ -6,8 +6,8 @@ import { Value } from "./types";
  * @param {Value} value
  * @returns boolean status of the null value if exists else returns false.
  */
-function isNull(value: Value): boolean {
-  return value === null || value === 'null';
+function isNull(value: Value | unknown | unknown[]): boolean {
+  return value === null;
 }
 
 export default isNull;

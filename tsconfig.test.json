@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM"],
+    "types": ["jest", "node"], // Include test and node types
+    "composite": true
+  },
+  "include": ["src/**/*", "__tests__/**/*", "__tests__/**/*.test.ts",] // Include source and test files
+}

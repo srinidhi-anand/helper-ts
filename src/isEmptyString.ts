@@ -1,4 +1,4 @@
-import { Value } from "./types";
+import { Value } from "./types/interface";
 
 /**
  * function to work on the empty string
@@ -6,11 +6,12 @@ import { Value } from "./types";
  * @param {*} value
  * @returns boolean status of the empty string value if exists else returns false.
  */
-function isEmpty(value: Value): boolean {
-  if (typeof value !== 'string') {
+function isEmptyString(value: Value): boolean {
+  if (typeof value !== "string") {
     return false;
   }
-  return value === '' || value === 'null' || value === 'undefined';
+  if (value === "") return true;
+  return /^[ ]+$/.test(value);
 }
 
-export default isEmpty;
+export default isEmptyString;
