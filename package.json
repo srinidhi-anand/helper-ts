@@ -59,7 +59,7 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "ts-genai-test": "^0.2.2",
+    "ts-genai-test": "^1.0.0",
     "winston": "^3.19.0"
   }
 }
