@@ -142,3 +142,5 @@ vite.config.ts.timestamp-*
 # IDE related folders
 .DS_Store
 .vscode/
+
+docs
