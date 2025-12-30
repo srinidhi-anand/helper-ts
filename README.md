@@ -20,10 +20,17 @@ console.log('checking if value is undefined ', isUndefined(test)) // outputs tru
 
 ```
 
+# Test
+
+```
+npm run test
+```
+
 ## Support Functions
 
-* isNull // confirms null values presence
-* isUndefined // confirms undefined value presence
-* isEmpty // confirms empty string value or stringified null or stringified undefined value presence.
+- isNull // confirms null values presence
+- isUndefined // confirms undefined value presence
+- isNullLike // confirms null, undefined and stringified null or stringified undefined value presence.
+- isEmptyString // Check if a string is empty or contains only whitespace (including Unicode invisible characters)
 
 Refer the [package source](https://github.com/srinidhi-anand/helper-ts/tree/master) for more details.
