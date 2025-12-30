@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/srinidhi-anand/helper-ts/compare/v1.0.3...v1.1.0) (2025-12-30)
+
+
+### Features
+
+* **isEmptyString:** handle zero-width and NBSP ([6c43ac6](https://github.com/srinidhi-anand/helper-ts/commit/6c43ac6def4453af2e2feb5b53b7fe1d79158c4b))
+
 ## [1.0.3](https://github.com/srinidhi-anand/helper-ts/compare/v1.0.1...v1.0.3) (2025-12-28)
 
 
@@ -33,6 +40,3 @@
 * null conditional functional implementation ([4bfa0bd](https://github.com/srinidhi-anand/helper-ts/commit/4bfa0bd9ca541e5f3b8a75529ee4be629dc30953))
 * type declaration changes ([405f511](https://github.com/srinidhi-anand/helper-ts/commit/405f5110b791bef273371d13559ba5dca58366b2))
 * undefined conditional functional implementation ([e1205b8](https://github.com/srinidhi-anand/helper-ts/commit/e1205b82d846c8c5cea61f89594b74ddde7f6857))
-
-
-
