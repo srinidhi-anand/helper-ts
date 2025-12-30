@@ -142,7 +142,3 @@ vite.config.ts.timestamp-*
 # IDE related folders
 .DS_Store
 .vscode/
-
-# dev files
-__tests__/*
-scripts/*
