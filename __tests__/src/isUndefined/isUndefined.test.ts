@@ -13,14 +13,14 @@
 import isUndefined from "../../../src/isUndefined"; // Assuming named export: export function isUndefined() {}
 
 describe("isUndefined", () => {
-  let startTime: [number, number];
+  // let startTime: [number, number];
 
   /**
    * @description Sets up the start time for the test suite.
    * Covered Scenarios: Test setup
    */
   beforeAll(() => {
-    startTime = process.hrtime();
+    // startTime = process.hrtime();
   });
 
   /**
@@ -28,8 +28,8 @@ describe("isUndefined", () => {
    * Covered Scenarios: Test teardown
    */
   afterAll(() => {
-    const endTime: [number, number] = process.hrtime(startTime);
-    const executionTimeMs: number = endTime[0] * 1000 + endTime[1] / 1000000;
+    // const endTime: [number, number] = process.hrtime(startTime);
+    // const executionTimeMs: number = endTime[0] * 1000 + endTime[1] / 1000000;
     // Note: console.log is strictly forbidden as per instructions.
     // This line would typically be used for logging in development but is commented out.
     // console.log(`isUndefined Test Suite Execution Time: ${executionTimeMs.toFixed(2)} ms`);
@@ -64,7 +64,7 @@ describe("isUndefined", () => {
    * Functional Scenarios Covered: Positive, Edge Case, Implicit Undefined
    */
   it("should return true for a declared but uninitialized variable", () => {
-    let uninitializedVar: any;
+    let uninitializedVar;
     expect(isUndefined(uninitializedVar)).toBe(true);
   });
 
@@ -163,7 +163,7 @@ describe("isUndefined", () => {
    * Functional Scenarios Covered: Negative, Basic, Type Distinction
    */
   it("should return false for an empty array", () => {
-    const value: any[] = [];
+    const value: unknown[] = [];
     expect(isUndefined(value)).toBe(false);
   });
 

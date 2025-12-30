@@ -186,9 +186,7 @@ describe("isNull", () => {
    * Functional Scenarios Covered: Negative functional test case.
    */
   it("should return false for a function", () => {
-    const value: Function = () => {
-      /* no-op */
-    };
+    const value: (...args: unknown[]) => unknown = () => {};
     expect(isNull(value)).toBe(false);
   });
 

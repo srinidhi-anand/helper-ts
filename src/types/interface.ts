@@ -1,6 +1,12 @@
-export type Primitive = string | boolean | number | null | undefined;
-
-export type Value = Primitive | Object | Record<any, any>;
+export type Value =
+  | symbol
+  | bigint
+  | string
+  | boolean
+  | number
+  | null
+  | undefined
+  | object;
 
 export interface NestedRecord {
   [key: string]: Value | NestedRecord | NestedRecord[];

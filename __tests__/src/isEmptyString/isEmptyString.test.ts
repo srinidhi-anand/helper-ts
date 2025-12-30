@@ -172,7 +172,7 @@ describe("isEmptyString", () => {
    * Covered Scenarios: Negative, Invalid Input
    */
   it("should return false for an empty array input", () => {
-    const input: any[] = [];
+    const input: unknown[] = [];
     expect(isEmptyString(input)).toBe(false);
   });
 
@@ -183,7 +183,7 @@ describe("isEmptyString", () => {
    * Covered Scenarios: Negative, Invalid Input
    */
   it("should return false for an empty object input", () => {
-    const input: Record<string, any> = {};
+    const input: Record<string, unknown> = {};
     expect(isEmptyString(input)).toBe(false);
   });
 
